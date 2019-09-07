@@ -12,7 +12,7 @@
  * http://polymer.github.io/PATENTS.txt
  */
 
-import {__testOnlySetSanitizeDOMValueExperimentalMayChangeWithoutWarning, __testOnlyClearSanitizerDoNotCallOrElse} from '../../lib/parts';
+import {__testOnlyClearSanitizerDoNotCallOrElse, __testOnlySetSanitizeDOMValueExperimentalMayChangeWithoutWarning} from '../../lib/parts';
 import {AttributeCommitter, AttributePart, createMarker, DefaultTemplateProcessor, directive, EventPart, html, NodePart, Part, render, templateFactory, TemplateResult} from '../../lit-html.js';
 import {stripExpressionMarkers} from '../test-utils/strip-markers.js';
 
